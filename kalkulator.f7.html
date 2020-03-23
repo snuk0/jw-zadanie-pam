@@ -1,0 +1,31 @@
+<template>
+    <div class="page" data-name="kalkulator">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+          </div>
+          <div class="title">Kalkulator</div>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="block-title">Kalkulator</div>
+        <div class="block">
+            Podaj A: <input type="number" id="liczba_a"><br>
+            Podaj B: <input type="number" id="liczba_b"><br>
+            <button class="button" id="dodaj">DODAJ</button>
+            <button class="button" id="odejmij">ODEJMIJ</button>
+            <button class="button" id="pomnoz">POMNÓŻ</button>
+            <button class="button" id="podziel">PODZIEL</button><br>
+            <div id="wynik"></div>
+        </div>
+      </div>
+    </div>
+    </template>
+    <script>
+    export default {};
+    </script>
